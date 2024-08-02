@@ -8,7 +8,7 @@ ratings_df[ratings_df['CHAS']=='0'],['eval'].median()
 pyplot.bar([ratings_df['CHAS'],(sort='false'),color=['pink','blue']
 pyplot.xlabel=('CHAS')
 pyplot.ylabel=('price')
-pyplot.title('Gender distribution bar plot')
+pyplot.title('Median of house prices near Charles river')
 
 # we test the hypothesus Ho= null ' there is no difference in the median values between houses near Charles river and far ones'
 # H1= median1 is not equal to median 2 ' there is a difference in the median values btween the prices of houses near Charles river and far ones'
