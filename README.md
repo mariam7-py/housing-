@@ -19,5 +19,5 @@ scipy.stats.levene(ratings_df[ratings_df['CHAS'] == '1'],['eval'],
 
 scipy.stats.ttest_ind(ratings_df[ratings_df['CHAS'] == '1'],['eval'],
                       ratings_df[ratings_df['CHAS'] == '0'],['eval'], equal_var= true)
-# since p value is less than 0.0, we reject the null hypothesis as there is enough proof that there is a statistical difference in House prices based on proximity to Charles river.                    
+# since p value is less than 0.05, we reject the null hypothesis as there is enough proof that there is a statistical difference in House prices based on proximity to Charles river.                    
                    
